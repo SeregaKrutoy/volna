@@ -1,0 +1,30 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'app.volna.music'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'app.volna.music'
+        minSdk 24
+        targetSdk 34
+        versionCode 2
+        versionName '1.1'
+        buildConfigField "String", "SITE_URL", '"https://3000-ie1xt6r8syy3j2je334x5.e2b.app"'
+    }
+
+    buildFeatures { buildConfig true }
+
+    buildTypes {
+        debug { debuggable true }
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}

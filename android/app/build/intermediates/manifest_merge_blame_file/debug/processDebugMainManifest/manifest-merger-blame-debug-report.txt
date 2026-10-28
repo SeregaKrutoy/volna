@@ -1,0 +1,97 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="app.volna.music"
+4    android:versionCode="2"
+5    android:versionName="1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/app/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/app/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/app/android/app/src/main/AndroidManifest.xml:5:5-79
+12-->/app/android/app/src/main/AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->/app/android/app/src/main/AndroidManifest.xml:6:5-68
+13-->/app/android/app/src/main/AndroidManifest.xml:6:22-65
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->/app/android/app/src/main/AndroidManifest.xml:7:5-77
+14-->/app/android/app/src/main/AndroidManifest.xml:7:22-74
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+15-->/app/android/app/src/main/AndroidManifest.xml:8:5-92
+15-->/app/android/app/src/main/AndroidManifest.xml:8:22-89
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->/app/android/app/src/main/AndroidManifest.xml:9:5-77
+16-->/app/android/app/src/main/AndroidManifest.xml:9:22-74
+17    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+17-->/app/android/app/src/main/AndroidManifest.xml:10:5-75
+17-->/app/android/app/src/main/AndroidManifest.xml:10:22-72
+18    <uses-permission
+18-->/app/android/app/src/main/AndroidManifest.xml:11:5-107
+19        android:name="android.permission.READ_EXTERNAL_STORAGE"
+19-->/app/android/app/src/main/AndroidManifest.xml:11:22-77
+20        android:maxSdkVersion="32" />
+20-->/app/android/app/src/main/AndroidManifest.xml:11:78-104
+21
+22    <application
+22-->/app/android/app/src/main/AndroidManifest.xml:13:5-42:19
+23        android:allowBackup="true"
+23-->/app/android/app/src/main/AndroidManifest.xml:17:9-35
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:icon="@drawable/ic_volna"
+26-->/app/android/app/src/main/AndroidManifest.xml:15:9-42
+27        android:label="volna"
+27-->/app/android/app/src/main/AndroidManifest.xml:14:9-30
+28        android:roundIcon="@drawable/ic_volna"
+28-->/app/android/app/src/main/AndroidManifest.xml:16:9-47
+29        android:supportsRtl="true"
+29-->/app/android/app/src/main/AndroidManifest.xml:19:9-35
+30        android:theme="@android:style/Theme.Material.Light.NoActionBar"
+30-->/app/android/app/src/main/AndroidManifest.xml:20:9-72
+31        android:usesCleartextTraffic="true" >
+31-->/app/android/app/src/main/AndroidManifest.xml:18:9-44
+32        <activity
+32-->/app/android/app/src/main/AndroidManifest.xml:22:9-31:20
+33            android:name="app.volna.music.MainActivity"
+33-->/app/android/app/src/main/AndroidManifest.xml:23:13-41
+34            android:configChanges="orientation|screenSize|keyboardHidden"
+34-->/app/android/app/src/main/AndroidManifest.xml:25:13-74
+35            android:exported="true"
+35-->/app/android/app/src/main/AndroidManifest.xml:24:13-36
+36            android:launchMode="singleTop" >
+36-->/app/android/app/src/main/AndroidManifest.xml:26:13-43
+37            <intent-filter>
+37-->/app/android/app/src/main/AndroidManifest.xml:27:13-30:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/app/android/app/src/main/AndroidManifest.xml:28:17-69
+38-->/app/android/app/src/main/AndroidManifest.xml:28:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/app/android/app/src/main/AndroidManifest.xml:29:17-77
+40-->/app/android/app/src/main/AndroidManifest.xml:29:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->/app/android/app/src/main/AndroidManifest.xml:33:9-36:48
+44            android:name="app.volna.music.OfflineActivity"
+44-->/app/android/app/src/main/AndroidManifest.xml:34:13-44
+45            android:exported="false"
+45-->/app/android/app/src/main/AndroidManifest.xml:35:13-37
+46            android:label="Офлайн-медиатека" />
+46-->/app/android/app/src/main/AndroidManifest.xml:36:13-45
+47
+48        <service
+48-->/app/android/app/src/main/AndroidManifest.xml:38:9-41:61
+49            android:name="app.volna.music.PlaybackService"
+49-->/app/android/app/src/main/AndroidManifest.xml:39:13-44
+50            android:exported="false"
+50-->/app/android/app/src/main/AndroidManifest.xml:40:13-37
+51            android:foregroundServiceType="mediaPlayback" />
+51-->/app/android/app/src/main/AndroidManifest.xml:41:13-58
+52    </application>
+53
+54</manifest>
