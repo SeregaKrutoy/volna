@@ -1,3 +1,0 @@
-app.volna.music:string/channel_name = 0x7f020001
-app.volna.music:string/app_name = 0x7f020000
-app.volna.music:drawable/ic_volna = 0x7f010000
