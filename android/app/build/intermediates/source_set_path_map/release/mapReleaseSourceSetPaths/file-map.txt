@@ -1,0 +1,7 @@
+app.volna.music.app-pngs-0 /app/android/app/build/generated/res/pngs/release
+app.volna.music.app-resValues-1 /app/android/app/build/generated/res/resValues/release
+app.volna.music.app-packageReleaseResources-2 /app/android/app/build/intermediates/incremental/release/packageReleaseResources/merged.dir
+app.volna.music.app-packageReleaseResources-3 /app/android/app/build/intermediates/incremental/release/packageReleaseResources/stripped.dir
+app.volna.music.app-release-4 /app/android/app/build/intermediates/merged_res/release/mergeReleaseResources
+app.volna.music.app-main-5 /app/android/app/src/main/res
+app.volna.music.app-release-6 /app/android/app/src/release/res

@@ -1,0 +1,10 @@
+app.volna.music:string/channel_name = 0x7f020001
+app.volna.music:drawable/ic_volna = 0x7f010007
+app.volna.music:drawable/ic_repeat_one = 0x7f010004
+app.volna.music:drawable/ic_heart_on = 0x7f010001
+app.volna.music:drawable/ic_shuffle_on = 0x7f010006
+app.volna.music:drawable/ic_shuffle = 0x7f010005
+app.volna.music:drawable/ic_heart = 0x7f010000
+app.volna.music:drawable/ic_repeat_on = 0x7f010003
+app.volna.music:string/app_name = 0x7f020000
+app.volna.music:drawable/ic_repeat = 0x7f010002

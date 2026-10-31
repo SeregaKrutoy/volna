@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "app.volna.music.app-release-4:/drawable_ic_shuffle.xml.flat",
+        "source": "app.volna.music.app-main-5:/drawable/ic_shuffle.xml"
+    },
+    {
+        "merged": "app.volna.music.app-release-4:/drawable_ic_repeat_on.xml.flat",
+        "source": "app.volna.music.app-main-5:/drawable/ic_repeat_on.xml"
+    },
+    {
+        "merged": "app.volna.music.app-release-4:/drawable_ic_heart.xml.flat",
+        "source": "app.volna.music.app-main-5:/drawable/ic_heart.xml"
+    },
+    {
+        "merged": "app.volna.music.app-release-4:/drawable_ic_repeat.xml.flat",
+        "source": "app.volna.music.app-main-5:/drawable/ic_repeat.xml"
+    },
+    {
+        "merged": "app.volna.music.app-release-4:/drawable_ic_repeat_one.xml.flat",
+        "source": "app.volna.music.app-main-5:/drawable/ic_repeat_one.xml"
+    },
+    {
+        "merged": "app.volna.music.app-release-4:/drawable_ic_heart_on.xml.flat",
+        "source": "app.volna.music.app-main-5:/drawable/ic_heart_on.xml"
+    },
+    {
+        "merged": "app.volna.music.app-release-4:/drawable_ic_shuffle_on.xml.flat",
+        "source": "app.volna.music.app-main-5:/drawable/ic_shuffle_on.xml"
+    },
+    {
+        "merged": "/home/user/.gradle/daemon/8.7/app.volna.music.app-release-4:/drawable_ic_volna.xml.flat",
+        "source": "/home/user/.gradle/daemon/8.7/app.volna.music.app-main-5:/drawable/ic_volna.xml"
+    }
+]
