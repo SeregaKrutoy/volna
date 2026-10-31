@@ -1,0 +1,35 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'app.volna.music'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'app.volna.music'
+        minSdk 24
+        targetSdk 34
+        versionCode 3
+        versionName '1.2'
+        buildConfigField "String", "SITE_URL", '"' + (System.getenv("APK_SITE_URL") ?: "https://3000-idfoxmcxp68ieoblv1cui.e2b.app") + '"'
+    }
+
+    buildFeatures { buildConfig true }
+
+    // Next.js складывает файлы в папку _next: по умолчанию AAPT игнорирует каталоги с префиксом "_".
+    androidResources {
+        ignoreAssetsPattern = '!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~'
+    }
+
+    buildTypes {
+        debug { debuggable true }
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
